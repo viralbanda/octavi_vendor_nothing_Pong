@@ -179,6 +179,28 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "NothingExperience",
+	owner: "nothing",
+	apk: "proprietary/system/priv-app/NothingExperience/NothingExperience.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "NTCamera",
+	owner: "nothing",
+	apk: "proprietary/system/priv-app/NTCamera/NTCamera.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "nothing",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",

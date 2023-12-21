@@ -10,6 +10,11 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/nothing/Pong/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/nothing/Pong/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/nothing/Pong/proprietary/system/etc/permissions/NTCamera-google-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/NTCamera-google-permissions.xml \
+    vendor/nothing/Pong/proprietary/system/etc/permissions/NTCamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/NTCamera-permissions.xml \
+    vendor/nothing/Pong/proprietary/system/etc/permissions/privapp-permissions-NothingExperience.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-NothingExperience.xml \
+    vendor/nothing/Pong/proprietary/system/etc/permissions/privapp-permissions-platform-nothing.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-platform-nothing.xml \
+    vendor/nothing/Pong/proprietary/system/etc/sysconfig/com.nothing.experimental.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.nothing.experimental.xml \
     vendor/nothing/Pong/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/nothing/Pong/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/nothing/Pong/proprietary/system_ext/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/tcmd \
@@ -1882,6 +1887,8 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libvmmem \
     vendor.qti.hardware.AGMIPC@1.0-impl \
+    NothingExperience \
+    NTCamera \
     CACertService \
     CneApp \
     IWlanService \
